@@ -12,18 +12,18 @@
 
     
 
-<title>Title</title>
+<title>标题</title>
 
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Title"/>
+<meta name="twitter:title" content="标题"/>
 <meta name="twitter:description" content=""/>
 
-<meta property="og:title" content="Title" />
+<meta property="og:title" content="标题" />
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://ZylFrank.github.io/" />
-<meta property="og:updated_time" content="2014-09-28T00:00:00&#43;00:00"/><meta property="og:site_name" content="Title" />
+<meta property="og:updated_time" content="2018-11-27T00:00:00&#43;00:00"/><meta property="og:site_name" content="Title" />
 
 
     
@@ -55,8 +55,8 @@
     <link rel="shortcut icon" href="/favicon.png">
     
 
-<link href="https://ZylFrank.github.io/index.xml" rel="alternate" type="application/rss+xml" title="Title" />
-<link href="https://ZylFrank.github.io/index.xml" rel="feed" type="application/rss+xml" title="Title" />
+<link href="https://ZylFrank.github.io/index.xml" rel="alternate" type="application/rss+xml" title="标题" />
+<link href="https://ZylFrank.github.io/index.xml" rel="feed" type="application/rss+xml" title="标题" />
 
 
 </head>
@@ -68,7 +68,7 @@
   <div class="container ">
     <div class="sidebar-about">
       <span class="site__title">
-        <a href="https://ZylFrank.github.io/">Title</a>
+        <a href="https://ZylFrank.github.io/">标题</a>
       </span>
       
         
@@ -86,7 +86,7 @@
     </div>
     <div class="collapsible-menu">
       <input type="checkbox" id="menuToggle">
-      <label for="menuToggle">Title</label>
+      <label for="menuToggle">标题</label>
       <div class="menu-content">
         <div>
 	<ul class="sidebar-nav">
@@ -95,7 +95,7 @@
 			 
 				<li>
 					<a href="/posts/">
-						<span>Posts</span>
+						<span>文章</span>
 					</a>
 				</li>
 			 
@@ -103,7 +103,7 @@
 			 
 				<li>
 					<a href="/portfolio/">
-						<span>Portfolio</span>
+						<span>项目</span>
 					</a>
 				</li>
 			 
@@ -111,7 +111,7 @@
 			 
 				<li>
 					<a href="/about/">
-						<span>About</span>
+						<span>关于</span>
 					</a>
 				</li>
 			 
@@ -122,43 +122,29 @@
 
         <section class="social">
 	
-	<a href="https://twitter.com/%3cusername%3e" rel="me"><i class="fab fa-twitter fa-lg" aria-hidden="true"></i></a>
 	
 	
-	<a href="https://facebook.com/%3cusername%3e" rel="me"><i class="fab fa-facebook-f"></i></a>
-	
-	
-	<a href="https://github.com/%3cusername%3e" rel="me"><i class="fab fa-github fa-lg" aria-hidden="true"></i></a>
+	<a href="https://github.com/https://github.com/ZylFrank" rel="me"><i class="fab fa-github fa-lg" aria-hidden="true"></i></a>
 	
 	
 	
 	
-	<a href="https://instagram.com/%3cusername%3e" rel="me"><i class="fab fa-instagram fa-lg" aria-hidden="true"></i></a>
-	
-	
-	<a href="https://linkedin.com/in/%3cusername%3e" rel="me"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a>
-	
-	
-	<a href="https://stackoverflow.com/users/%3cusername%3e" rel="me"><i class="fab fa-stack-overflow fa-lg" aria-hidden="true"></i></a>
 	
 	
 	
-	<a href="https://www.xing.com/profile/%3cusername%3e" rel="me"><i class="fab fa-xing fa-lg" aria-hidden="true"></i></a>
 	
 	
 	
-	<a href="https://t.me/%3cusername%3e" rel="me"><i class="fab fa-telegram fa-lg" aria-hidden="true"></i></a>
 	
 	
-	
-	<a href="mailto:your-email@example.com" rel="me"><i class="fas fa-at fa-lg" aria-hidden="true"></i></a>
+	<a href="mailto:zhangyunlongfra@163.com" rel="me"><i class="fas fa-at fa-lg" aria-hidden="true"></i></a>
 	
 </section>
 
       </div>
     </div>
     <div class="copyright">
-  &copy; 2018 Author.
+  &copy; 2018 frank.
   <a href="https://creativecommons.org/licenses/by-sa/4.0">Some Rights Reserved</a>.
   Built with <a href="https://gohugo.io">Hugo</a> ❤️ <a href="https://github.com/htr3n/hyde-hyde">hyde-hyde</a>.
   
@@ -172,6 +158,46 @@
   <div class="post-list">
     
     
+      <div class="post-list__item">
+        <span class="item__title--big">
+          <a href="/posts/creating-a-new-hugo-website/">创建一个Hugo网站</a>
+          
+        </span>
+        <span class="item__date">
+          Nov 27, 2018
+        </span>
+        
+        Hugo Hugo是由Go语言实现的静态网站生成器。简单、易用、高效、易扩展、快速部署。如果你用过Jekyll那么Hugo对你就并不陌生。可以使用GitHub快速生成一个静态网站。Hugo使用markdown的写法为你生成网站。
+相关链接： hugo 中文网 hugo 官方文档
+使用Hugo构建自己的blog 这里我是用docker来启动Hugo
+ 移步这里下载主题  git clone https://github.com/htr3n/hyde-hyde.git themes/hyde-hyde   修改文件目录  $ mv hyde-hyde/themes/exampleSite . $ mkdir -p exampleSite/themes $ mv hyde-hyde/themes exampleSite/themes/.   使用docker运行Hugo  docker run --rm -it -v $PWD:/src -p 1313:1313 -u hugo jguyomard/hugo-builder hugo server -w --bind=0.0.0.0   在GitHub中创建一个仓库名字为 yourgithubname.github.io
+ 修改Hugo的配置文件(config.toml)
+  baseurl = &quot;https://yourgithubname.github.io/&quot;   编译静态资源(编译成功后会生成一个public目录)  docker run --rm -it -v $PWD:/src -u hugo jguyomard/hugo-builder hugo   cd public  git init git add .
+        
+        
+          ... <a class="read-more-symbol" href="/posts/creating-a-new-hugo-website/">➦</a>
+        
+        </div>
+     
+      <div class="post-list__item">
+        <span class="item__title--big">
+          <a href="/posts/selenium/">浏览器自动化测试框架</a>
+          
+        </span>
+        <span class="item__date">
+          Nov 27, 2018
+        </span>
+        
+        Introduction Selenium是一套不同的软件工具，每种工具都有不同的方法来支持测试自动化。大多数Selenium QA工程师专注于最能满足其项目需求的一个或两个工具，但学习所有工具将为您提供许多不同的选项来处理不同的测试自动化问题。整套工具产生了丰富的测试功能，专门针对所有类型的Web应用程序的测试需求。这些操作非常灵活，允许使用许多选项来定位UI元素，并将预期的测试结果与实际的应用程序行为进行比较。Selenium的一个主要功能是支持在多个浏览器平台上执行一个测试。
+官方文档
+安装 selenium pip install selenium  下载浏览器驱动 在这里下载 这里也可以
+起步  创建一个测试浏览器窗口（这里我把chrome浏览器驱动放在了同目录的bin文件夹下）  from selenium import webdriver browserName = webdriver.Chrome('./bin/chromedriver');   打开页面  browserName.get('http://www.baidu.com');  获取页面元素  按ID  element = driver.find_element_by_id(&quot;coolestWidgetEvah&quot;) or from selenium.webdriver.common.by import By element = driver.find_element(by=By.ID, value=&quot;coolestWidgetEvah&quot;)   按类名  cheeses = driver.find_elements_by_class_name(&quot;cheese&quot;) or from selenium.webdriver.common.by import By cheeses = driver.find_elements(By.CLASS_NAME, &quot;cheese&quot;)   按标签名  frame = driver.find_element_by_tag_name(&quot;iframe&quot;) or from selenium.
+        
+        
+          ... <a class="read-more-symbol" href="/posts/selenium/">➦</a>
+        
+        </div>
+     
       <div class="post-list__item">
         <span class="item__title--big">
           <a href="/posts/creating-a-new-theme/">Creating a New Theme</a>

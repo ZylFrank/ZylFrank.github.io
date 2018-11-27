@@ -1,20 +1,29 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Title</title>
+    <title>Tags on 标题</title>
     <link>https://ZylFrank.github.io/tags/</link>
-    <description>Recent content in Tags on Title</description>
+    <description>Recent content in Tags on 标题</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 28 Sep 2014 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 27 Nov 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://ZylFrank.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Browser</title>
+      <link>https://ZylFrank.github.io/tags/browser/</link>
+      <pubDate>Tue, 27 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://ZylFrank.github.io/tags/browser/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Css</title>
       <link>https://ZylFrank.github.io/tags/css/</link>
-      <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 27 Nov 2018 00:00:00 +0000</pubDate>
       
       <guid>https://ZylFrank.github.io/tags/css/</guid>
       <description></description>
@@ -50,7 +59,7 @@
     <item>
       <title>Html</title>
       <link>https://ZylFrank.github.io/tags/html/</link>
-      <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 27 Nov 2018 00:00:00 +0000</pubDate>
       
       <guid>https://ZylFrank.github.io/tags/html/</guid>
       <description></description>
@@ -59,7 +68,7 @@
     <item>
       <title>Hugo</title>
       <link>https://ZylFrank.github.io/tags/hugo/</link>
-      <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 27 Nov 2018 00:00:00 +0000</pubDate>
       
       <guid>https://ZylFrank.github.io/tags/hugo/</guid>
       <description></description>
@@ -80,6 +89,15 @@
       <pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate>
       
       <guid>https://ZylFrank.github.io/tags/migration/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>https://ZylFrank.github.io/tags/python/</link>
+      <pubDate>Tue, 27 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://ZylFrank.github.io/tags/python/</guid>
       <description></description>
     </item>
     
