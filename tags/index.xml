@@ -2,111 +2,111 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Title</title>
-    <link>https://github.com/ZylFrank/ZylFrank.github.io.git/tags/</link>
+    <link>https://ZylFrank.github.io/tags/</link>
     <description>Recent content in Tags on Title</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sun, 28 Sep 2014 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://github.com/ZylFrank/ZylFrank.github.io.git/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ZylFrank.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Css</title>
-      <link>https://github.com/ZylFrank/ZylFrank.github.io.git/tags/css/</link>
+      <link>https://ZylFrank.github.io/tags/css/</link>
       <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://github.com/ZylFrank/ZylFrank.github.io.git/tags/css/</guid>
+      <guid>https://ZylFrank.github.io/tags/css/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Development</title>
-      <link>https://github.com/ZylFrank/ZylFrank.github.io.git/tags/development/</link>
+      <link>https://ZylFrank.github.io/tags/development/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://github.com/ZylFrank/ZylFrank.github.io.git/tags/development/</guid>
+      <guid>https://ZylFrank.github.io/tags/development/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Go</title>
-      <link>https://github.com/ZylFrank/ZylFrank.github.io.git/tags/go/</link>
+      <link>https://ZylFrank.github.io/tags/go/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://github.com/ZylFrank/ZylFrank.github.io.git/tags/go/</guid>
+      <guid>https://ZylFrank.github.io/tags/go/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Golang</title>
-      <link>https://github.com/ZylFrank/ZylFrank.github.io.git/tags/golang/</link>
+      <link>https://ZylFrank.github.io/tags/golang/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://github.com/ZylFrank/ZylFrank.github.io.git/tags/golang/</guid>
+      <guid>https://ZylFrank.github.io/tags/golang/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Html</title>
-      <link>https://github.com/ZylFrank/ZylFrank.github.io.git/tags/html/</link>
+      <link>https://ZylFrank.github.io/tags/html/</link>
       <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://github.com/ZylFrank/ZylFrank.github.io.git/tags/html/</guid>
+      <guid>https://ZylFrank.github.io/tags/html/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Hugo</title>
-      <link>https://github.com/ZylFrank/ZylFrank.github.io.git/tags/hugo/</link>
+      <link>https://ZylFrank.github.io/tags/hugo/</link>
       <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://github.com/ZylFrank/ZylFrank.github.io.git/tags/hugo/</guid>
+      <guid>https://ZylFrank.github.io/tags/hugo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Jekyll</title>
-      <link>https://github.com/ZylFrank/ZylFrank.github.io.git/tags/jekyll/</link>
+      <link>https://ZylFrank.github.io/tags/jekyll/</link>
       <pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://github.com/ZylFrank/ZylFrank.github.io.git/tags/jekyll/</guid>
+      <guid>https://ZylFrank.github.io/tags/jekyll/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Migration</title>
-      <link>https://github.com/ZylFrank/ZylFrank.github.io.git/tags/migration/</link>
+      <link>https://ZylFrank.github.io/tags/migration/</link>
       <pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://github.com/ZylFrank/ZylFrank.github.io.git/tags/migration/</guid>
+      <guid>https://ZylFrank.github.io/tags/migration/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Templates</title>
-      <link>https://github.com/ZylFrank/ZylFrank.github.io.git/tags/templates/</link>
+      <link>https://ZylFrank.github.io/tags/templates/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://github.com/ZylFrank/ZylFrank.github.io.git/tags/templates/</guid>
+      <guid>https://ZylFrank.github.io/tags/templates/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Theme</title>
-      <link>https://github.com/ZylFrank/ZylFrank.github.io.git/tags/theme/</link>
+      <link>https://ZylFrank.github.io/tags/theme/</link>
       <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://github.com/ZylFrank/ZylFrank.github.io.git/tags/theme/</guid>
+      <guid>https://ZylFrank.github.io/tags/theme/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Themes</title>
-      <link>https://github.com/ZylFrank/ZylFrank.github.io.git/tags/themes/</link>
+      <link>https://ZylFrank.github.io/tags/themes/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://github.com/ZylFrank/ZylFrank.github.io.git/tags/themes/</guid>
+      <guid>https://ZylFrank.github.io/tags/themes/</guid>
       <description></description>
     </item>
     
