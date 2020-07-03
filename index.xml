@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Even - A super concise theme for Hugo</title>
+    <title>Blog - write by zhangyunlong</title>
     <link>https://zylfrank.github.io/</link>
-    <description>Recent content on Even - A super concise theme for Hugo</description>
+    <description>Recent content on Blog - write by zhangyunlong</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 03 Jul 2020 15:42:41 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 03 Jul 2020 22:46:27 +0800</lastBuildDate>
     
 	<atom:link href="https://zylfrank.github.io/index.xml" rel="self" type="application/rss+xml" />
     
@@ -23,12 +23,36 @@ It makes use of a variety of open source projects including:
     </item>
     
     <item>
+      <title>Weekly</title>
+      <link>https://zylfrank.github.io/post/workdocs/weekly/</link>
+      <pubDate>Fri, 03 Jul 2020 22:46:27 +0800</pubDate>
+      
+      <guid>https://zylfrank.github.io/post/workdocs/weekly/</guid>
+      <description>&lt;h1 id=&#34;summary&#34;&gt;Summary&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;2020年工作文档周报。&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>Monthly</title>
+      <link>https://zylfrank.github.io/post/workdocs/monthly/</link>
+      <pubDate>Fri, 03 Jul 2020 22:34:55 +0800</pubDate>
+      
+      <guid>https://zylfrank.github.io/post/workdocs/monthly/</guid>
+      <description>&lt;h1 id=&#34;summary&#34;&gt;Summary&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;2020年工作文档月报。&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
       <title>Github Hugo Blog</title>
       <link>https://zylfrank.github.io/post/hugo/github-blog/</link>
       <pubDate>Fri, 03 Jul 2020 15:42:41 +0800</pubDate>
       
       <guid>https://zylfrank.github.io/post/hugo/github-blog/</guid>
-      <description>&lt;h1 id=&#34;heading&#34;&gt;文档摘要&lt;/h1&gt;
+      <description>&lt;h1 id=&#34;summary&#34;&gt;Summary&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;p&gt;使用hugo构建blog，并使用github进行发布。&lt;/p&gt;
 &lt;/blockquote&gt;</description>

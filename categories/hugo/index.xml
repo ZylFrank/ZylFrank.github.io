@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>hugo on Even - A super concise theme for Hugo</title>
+    <title>Hugo on Blog - write by zhangyunlong</title>
     <link>https://zylfrank.github.io/categories/hugo/</link>
-    <description>Recent content in hugo on Even - A super concise theme for Hugo</description>
+    <description>Recent content in Hugo on Blog - write by zhangyunlong</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Fri, 03 Jul 2020 15:42:41 +0800</lastBuildDate>
@@ -17,7 +17,7 @@
       <pubDate>Fri, 03 Jul 2020 15:42:41 +0800</pubDate>
       
       <guid>https://zylfrank.github.io/post/hugo/github-blog/</guid>
-      <description>&lt;h1 id=&#34;heading&#34;&gt;文档摘要&lt;/h1&gt;
+      <description>&lt;h1 id=&#34;summary&#34;&gt;Summary&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;p&gt;使用hugo构建blog，并使用github进行发布。&lt;/p&gt;
 &lt;/blockquote&gt;</description>
