@@ -49,7 +49,7 @@
 <meta itemprop="description" content="工作文档-月度总结">
 <meta itemprop="datePublished" content="2020-07-03T22:34:55&#43;08:00" />
 <meta itemprop="dateModified" content="2020-07-03T22:34:55&#43;08:00" />
-<meta itemprop="wordCount" content="1227">
+<meta itemprop="wordCount" content="2012">
 
 
 
@@ -129,8 +129,8 @@
         <div class="post-category">
             <a href="/categories/work-docs/"> Work Docs </a>
             </div>
-          <span class="more-meta"> 1227 words </span>
-          <span class="more-meta"> 3 mins read </span>
+          <span class="more-meta"> 2012 words </span>
+          <span class="more-meta"> 5 mins read </span>
         
       </div>
     </header>
@@ -140,11 +140,16 @@
   <div class="post-toc-content">
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#202076">20207月6日</a></li>
+    <li><a href="#202076">2020年7月6日</a>
+      <ul>
+        <li><a href="#heading">近期工作情况</a></li>
+        <li><a href="#heading-1">思考总结</a></li>
+      </ul>
+    </li>
     <li><a href="#202066">2020年6月6日</a>
       <ul>
-        <li><a href="#heading">近期主要工作情况</a></li>
-        <li><a href="#heading-1">思考总结</a></li>
+        <li><a href="#heading-2">近期主要工作情况</a></li>
+        <li><a href="#heading-3">思考总结</a></li>
       </ul>
     </li>
   </ul>
@@ -156,10 +161,70 @@
 <blockquote>
 <p>2020年工作文档月报。</p>
 </blockquote>
-<h2 id="202076">20207月6日</h2>
+<h2 id="202076">2020年7月6日</h2>
+<h3 id="heading">近期工作情况</h3>
+<p><strong>TSTP系统新功能开发</strong></p>
+<ul>
+<li>系统中加入Muscle对齐功能</li>
+</ul>
+<p>使用Muscle工具可以根据参考序列信息找出目标序列中的插入和缺失情况，先将Muscle对齐功能集成到TSTP系统中，根据Muscle得出的分析结果，再将序列的重复区对齐并统一着色。</p>
+<ul>
+<li>创建不需要在线执行分析脚本的任务</li>
+</ul>
+<p>当服务器分析完测序数据后，需根据分析结果目录创建任务，通过对分析结果目录的遍历查找，实现在线展示Reads分析结果的功能，并通过设置Reads_num参数过滤Reads信息；并实现序列文件的线上对齐功能。主要功能点有：</p>
+<ol>
+<li>通过执行分析结果目录创建任务，自动查询该目录下的样品</li>
+<li>读取样品的Reads分析结果，并通过定义Reads_num过滤分析结果文件</li>
+<li>根据每个样品分型的参考序列对齐Reads序列文件</li>
+</ol>
+<ul>
+<li>准备著作权相关资料</li>
+</ul>
+<p><strong>种子库管理系统</strong></p>
+<ul>
+<li>部署可使用域名访问的对外测试系统</li>
+</ul>
+<p>将种子库管理系统的测试版本部署在229服务器，通过配置服务器域名，实现外网域名访问 <a href="https://seeds.plantdna.cn:8445">SWMS</a></p>
+<p><code>在此过程中遇到的问题:</code>在配置服务器域名时，遇到了ParseServer的一个Bug，导致系统访问后端接口时出现跨域问题，通过查找相关文档给ParseServer配置publicServerURL为域名。重现发布系统后解决。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span><span class="lnt">9
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="kr">const</span> <span class="nx">api</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">ParseServer</span><span class="p">(</span><span class="p">{</span>
+  <span class="nx">databaseURI</span><span class="o">:</span> <span class="nx">databaseUri</span> <span class="o">||</span> <span class="s1">&#39;mongodb://localhost:27017/swms&#39;</span><span class="p">,</span>
+  <span class="nx">cloud</span><span class="o">:</span> <span class="nx">path</span><span class="p">.</span><span class="nx">join</span><span class="p">(</span><span class="nx">__dirname</span><span class="p">,</span> <span class="s1">&#39;/cloud/main.js&#39;</span><span class="p">)</span><span class="p">,</span>
+  <span class="nx">appId</span><span class="o">:</span> <span class="nx">process</span><span class="p">.</span><span class="nx">env</span><span class="p">.</span><span class="nx">APP_ID</span><span class="p">,</span>
+  <span class="nx">masterKey</span><span class="o">:</span> <span class="nx">process</span><span class="p">.</span><span class="nx">env</span><span class="p">.</span><span class="nx">MASTER_KEY</span><span class="p">,</span>
+  <span class="nx">serverURL</span><span class="o">:</span> <span class="nx">serverUri</span> <span class="o">||</span> <span class="s1">&#39;http://localhost:1337/api&#39;</span><span class="p">,</span>
+  <span class="nx">publicServerURL</span><span class="o">:</span> <span class="nx">publicUri</span><span class="p">,</span> <span class="c1">// https
+</span><span class="c1"></span>  <span class="nx">maxUploadSize</span><span class="o">:</span> <span class="sb">`</span><span class="si">${</span><span class="nx">process</span><span class="p">.</span><span class="nx">env</span><span class="p">.</span><span class="nx">MAX_UPLOAD_SIZE</span><span class="si">}</span><span class="sb">mb</span><span class="sb">`</span> <span class="o">||</span> <span class="s1">&#39;20mb&#39;</span><span class="p">,</span>
+<span class="p">}</span><span class="p">)</span><span class="p">;</span>
+</code></pre></td></tr></table>
+</div>
+</div><ul>
+<li>录入1号库于2号库样品信息</li>
+</ul>
+<p>将李松提供的入库信息表导入系统，因为提供的入库信息表中样品信息大多数都缺失了样品名称和样品来源信息，在录入系统之前需要将信息补全。目前系统中已录入1号库，2号库，4号库，三个库存信息，总结管理样品58586份样品。</p>
+<ul>
+<li>准备系统汇报演示，制作汇报PPT</li>
+</ul>
+<h3 id="heading-1">思考总结</h3>
+<ul>
+<li>针对种子库管理系统样品入库时的信息缺失问题，需提供更加方便的解决方案。</li>
+<li>大批量样品入库时，可显示入库进度条，便于掌握入库进度。经测试当录入2多万条样品时的耗时在半个小时左右。</li>
+</ul>
 <hr>
 <h2 id="202066">2020年6月6日</h2>
-<h3 id="heading">近期主要工作情况</h3>
+<h3 id="heading-2">近期主要工作情况</h3>
 <ol>
 <li><strong>调整TSTP系统相关细节问题</strong>：
 <ul>
@@ -258,7 +323,7 @@
 GC-ratio 0.48971569453109276
 </code></pre></td></tr></table>
 </div>
-</div><h3 id="heading-1">思考总结</h3>
+</div><h3 id="heading-3">思考总结</h3>
 <ol>
 <li>
 <p>在制作位点对齐图时其实存在一个性能问题，即当上传的序列文件比较大时（如有上万条序列）页面渲染将会消耗大量浏览器资源，致使卡顿甚至是浏览器崩溃，这里采用懒加载的方式对序列进行选择性渲染，即只渲染当前屏幕可见的序列，大大减轻浏览器压力。</p>
