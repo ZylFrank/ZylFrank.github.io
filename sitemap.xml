@@ -10,20 +10,27 @@
   
   <url>
     <loc>https://zylfrank.github.io/</loc>
-    <lastmod>2020-07-03T22:46:27+08:00</lastmod>
+    <lastmod>2020-07-13T15:15:13+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://zylfrank.github.io/categories/</loc>
-    <lastmod>2020-07-03T22:46:27+08:00</lastmod>
+    <loc>https://zylfrank.github.io/post/docker/</loc>
+    <lastmod>2020-07-13T15:15:13+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://zylfrank.github.io/post/</loc>
+    <lastmod>2020-07-13T15:15:13+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://zylfrank.github.io/categories/</loc>
     <lastmod>2020-07-03T22:46:27+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -51,14 +58,14 @@
   </url>
   
   <url>
-    <loc>https://zylfrank.github.io/categories/work-docs/</loc>
+    <loc>https://zylfrank.github.io/tags/work-docs/</loc>
     <lastmod>2020-07-03T22:46:27+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://zylfrank.github.io/tags/work-docs/</loc>
+    <loc>https://zylfrank.github.io/categories/work-docs/</loc>
     <lastmod>2020-07-03T22:46:27+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>

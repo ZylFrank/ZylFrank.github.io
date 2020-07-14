@@ -6,7 +6,7 @@
     <description>Recent content on Blog - write by zhangyunlong</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 03 Jul 2020 22:46:27 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 13 Jul 2020 15:15:13 +0800</lastBuildDate>
     
 	<atom:link href="https://zylfrank.github.io/index.xml" rel="self" type="application/rss+xml" />
     
@@ -20,6 +20,18 @@
       <description>Hugo is a static site engine written in Go.
 It makes use of a variety of open source projects including:
  even  </description>
+    </item>
+    
+    <item>
+      <title>Docker</title>
+      <link>https://zylfrank.github.io/post/docker/</link>
+      <pubDate>Mon, 13 Jul 2020 15:15:13 +0800</pubDate>
+      
+      <guid>https://zylfrank.github.io/post/docker/</guid>
+      <description>&lt;h1 id=&#34;summary&#34;&gt;Summary&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Docker系统部署。&lt;/p&gt;
+&lt;/blockquote&gt;</description>
     </item>
     
     <item>
@@ -42,7 +54,7 @@ It makes use of a variety of open source projects including:
       <guid>https://zylfrank.github.io/post/workdocs/monthly/</guid>
       <description>&lt;h1 id=&#34;summary&#34;&gt;Summary&lt;/h1&gt;
 &lt;blockquote&gt;
-&lt;p&gt;2020年工作文档月报。&lt;/p&gt;
+&lt;p&gt;2020年工作文档月报&lt;/p&gt;
 &lt;/blockquote&gt;</description>
     </item>
     
