@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>Docker - Blog - write by zhangyunlong</title>
+  <title>Server Info - Blog - write by zhangyunlong</title>
   <meta name="renderer" content="webkit" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 
@@ -16,8 +16,7 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
 
 
-<meta name="author" content="zhangyunlong" /><meta name="description" content="Summary  Docker系统部署。
-" /><meta name="keywords" content="Docker" />
+<meta name="author" content="zhangyunlong" /><meta name="description" content="Record Server Info" /><meta name="keywords" content="Server" />
 
 
 
@@ -27,7 +26,7 @@
 <meta name="generator" content="Hugo 0.61.0 with theme even" />
 
 
-<link rel="canonical" href="https://zylfrank.github.io/post/docker/" />
+<link rel="canonical" href="https://zylfrank.github.io/post/server/serverinfo/" />
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -40,32 +39,23 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.css" integrity="sha256-7TyXnr2YU040zfSP+rEcz29ggW4j56/ujTPwjMzyqFY=" crossorigin="anonymous">
 
 
-<meta property="og:title" content="Docker" />
-<meta property="og:description" content="Summary
-
-Docker系统部署。
-" />
+<meta property="og:title" content="Server Info" />
+<meta property="og:description" content="Record Server Info" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://zylfrank.github.io/post/docker/" />
-<meta property="article:published_time" content="2020-07-13T15:15:13+08:00" />
-<meta property="article:modified_time" content="2020-07-13T15:15:13+08:00" />
-<meta itemprop="name" content="Docker">
-<meta itemprop="description" content="Summary
-
-Docker系统部署。
-">
-<meta itemprop="datePublished" content="2020-07-13T15:15:13&#43;08:00" />
-<meta itemprop="dateModified" content="2020-07-13T15:15:13&#43;08:00" />
-<meta itemprop="wordCount" content="234">
+<meta property="og:url" content="https://zylfrank.github.io/post/server/serverinfo/" />
+<meta property="article:published_time" content="2020-07-16T21:10:11+08:00" />
+<meta property="article:modified_time" content="2020-07-16T21:10:11+08:00" />
+<meta itemprop="name" content="Server Info">
+<meta itemprop="description" content="Record Server Info">
+<meta itemprop="datePublished" content="2020-07-16T21:10:11&#43;08:00" />
+<meta itemprop="dateModified" content="2020-07-16T21:10:11&#43;08:00" />
+<meta itemprop="wordCount" content="171">
 
 
 
-<meta itemprop="keywords" content="Docker," /><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Docker"/>
-<meta name="twitter:description" content="Summary
-
-Docker系统部署。
-"/>
+<meta itemprop="keywords" content="Server," /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Server Info"/>
+<meta name="twitter:description" content="Record Server Info"/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -132,14 +122,14 @@ Docker系统部署。
           <article class="post">
     
     <header class="post-header">
-      <h1 class="post-title">Docker</h1>
+      <h1 class="post-title">Server Info</h1>
 
       <div class="post-meta">
-        <span class="post-time"> 2020-07-13 </span>
+        <span class="post-time"> 2020-07-16 </span>
         <div class="post-category">
-            <a href="/categories/docker/"> Docker </a>
+            <a href="/categories/server/"> Server </a>
             </div>
-          <span class="more-meta"> 234 words </span>
+          <span class="more-meta"> 171 words </span>
           <span class="more-meta"> 1 min read </span>
         
       </div>
@@ -147,51 +137,26 @@ Docker系统部署。
 
     <div class="post-toc" id="post-toc">
   <h2 class="post-toc-title">Contents</h2>
-  <div class="post-toc-content always-active">
+  <div class="post-toc-content">
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#ubuntudocker">ubuntu安装Docker</a></li>
-    <li><a href="#docker-compose">安装docker-compose</a></li>
-    <li><a href="#heading">宿主机与容器间的文件交换</a></li>
-    <li><a href="#heading-1">镜像的导入导出</a></li>
-    <li><a href="#heading-2">使用镜像内部命令</a></li>
+    <li><a href="#heading-1">内网服务器连接网络</a></li>
+    <li><a href="#amgt">AMGT服务器登录</a></li>
+    <li><a href="#heading-2">青云服务器</a>
+      <ul>
+        <li><a href="#heading-3">部署的系统有</a></li>
+      </ul>
+    </li>
+    <li><a href="#nginx">Nginx配置服务器</a></li>
+    <li><a href="#swms">SWMS外网访问服务器</a></li>
+    <li><a href="#swms-1">SWMS内网访问服务器</a></li>
   </ul>
 </nav>
   </div>
 </div>
     <div class="post-content">
-      <h1 id="summary">Summary</h1>
-<blockquote>
-<p>Docker系统部署。</p>
-</blockquote>
-<h2 id="ubuntudocker">ubuntu安装Docker</h2>
-<blockquote>
-<p>sudo snap install docker</p>
-</blockquote>
-<p>使用docker命令如果出现如下错误：</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">Got permission denied <span class="k">while</span> trying to connect to the Docker daemon socket at unix:///var/run/docker.sock: Get http://%2Fvar%2Frun%2Fdocker.sock/v1.40/containers/json: dial unix /var/run/docker.sock: connect: permission denied
-</code></pre></td></tr></table>
-</div>
-</div><p>解决方案：</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">sudo groupadd docker <span class="c1">#添加docker用户组</span>
-sudo gpasswd -a <span class="nv">$USER</span> docker <span class="c1">#将当前用户添加至docker用户组</span>
-newgrp docker <span class="c1">#更新docker用户组</span>
-</code></pre></td></tr></table>
-</div>
-</div><h2 id="docker-compose">安装docker-compose</h2>
-<p><a href="https://docs.docker.com/compose/install/">docker-compose install</a></p>
+      <h1 id="heading">记录一些服务器信息</h1>
+<h2 id="heading-1">内网服务器连接网络</h2>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1
@@ -204,43 +169,99 @@ newgrp docker <span class="c1">#更新docker用户组</span>
 </span><span class="lnt">8
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">sudo apt install curl
+<pre class="chroma"><code class="language-bash" data-lang="bash">
+ssh -R 4000:192.168.100.2:8888 viathink@172.16.40.116
 
-sudo curl -L <span class="s2">&#34;</span><span class="s2">https://github.com/docker/compose/releases/download/1.26.2/docker-compose-</span><span class="k">$(</span>uname -s<span class="k">)</span><span class="s2">-</span><span class="k">$(</span>uname -m<span class="k">)</span><span class="s2">&#34;</span> -o /usr/local/bin/docker-compose
+<span class="nb">export</span> <span class="nv">http_proxy</span><span class="o">=</span>http://localhost:4000
+<span class="nb">export</span> <span class="nv">https_proxy</span><span class="o">=</span>http://localhost:4000
 
-sudo chmod +x /usr/local/bin/docker-compose
-
-sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
+git config --global http.proxy http://localhost:4000
 
 </code></pre></td></tr></table>
 </div>
-</div><h2 id="heading">宿主机与容器间的文件交换</h2>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">docker cp CONTAINER:/PATH OUT_PATH
-</code></pre></td></tr></table>
-</div>
-</div><h2 id="heading-1">镜像的导入导出</h2>
+</div><h2 id="amgt">AMGT服务器登录</h2>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">docker save -o image.tar image:version
-docker load --input image.tar
+<pre class="chroma"><code class="language-bash" data-lang="bash">
+ssh -p <span class="m">2201</span> ubuntu@amgt-ts.plantdna.site
+ssh -p <span class="m">2201</span> ubuntu@49.233.41.94
+
 </code></pre></td></tr></table>
 </div>
-</div><h2 id="heading-2">使用镜像内部命令</h2>
+</div><h2 id="heading-2">青云服务器</h2>
+<h3 id="heading-3">部署的系统有</h3>
+<ul>
+<li>
+<p><a href="http://maizedna.cn:8085">CloudLims:仪器管理系统</a></p>
+<ul>
+<li><a href="http://maizedna.cn:9091/apidocs/index.html">接口文档</a></li>
+</ul>
+</li>
+<li>
+<p><a href="http://maizedna.cn:8084">Login: 安全登录系统</a></p>
+</li>
+<li>
+<p><a href="http://maizedna.cn:8082">考勤登记系统</a></p>
+</li>
+<li>
+<p><a href="http://maizedna.cn:8083">TSTP:定点测序分析平台</a></p>
+</li>
+</ul>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">docker run --rm  -v <span class="sb">`</span><span class="nb">pwd</span><span class="sb">`</span>:/mnt/app -w /mnt/app node:8.16.1 npm run build
+<pre class="chroma"><code class="language-bash" data-lang="bash">
+ssh viathink@maizedna.cn
+
+</code></pre></td></tr></table>
+</div>
+</div><h2 id="nginx">Nginx配置服务器</h2>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash">
+ssh -p <span class="m">2201</span> viathink@192.168.17.157
+
+</code></pre></td></tr></table>
+</div>
+</div><h2 id="swms">SWMS外网访问服务器</h2>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash">
+ssh viathink@192.168.17.229
+
+</code></pre></td></tr></table>
+</div>
+</div><h2 id="swms-1">SWMS内网访问服务器</h2>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash">
+ssh viathink@172.16.42.111
+
 </code></pre></td></tr></table>
 </div>
 </div>
@@ -249,16 +270,16 @@ docker load --input image.tar
     
 <footer class="post-footer">
       <div class="post-tags">
-          <a href="/tags/docker/">Docker</a>
+          <a href="/tags/server/">Server</a>
           </div>
       <nav class="post-nav">
-        <a class="prev" href="/post/server/serverinfo/">
+        <a class="prev" href="/post/linux/tmux/">
             <i class="iconfont icon-left"></i>
-            <span class="prev-text nav-default">Server Info</span>
+            <span class="prev-text nav-default">Tmux</span>
             <span class="prev-text nav-mobile">Prev</span>
           </a>
-        <a class="next" href="/post/workdocs/weekly/">
-            <span class="next-text nav-default">Weekly</span>
+        <a class="next" href="/post/docker/">
+            <span class="next-text nav-default">Docker</span>
             <span class="next-text nav-mobile">Next</span>
             <i class="iconfont icon-right"></i>
           </a>
@@ -267,10 +288,6 @@ docker load --input image.tar
   </article>
         </div>
         
-
-  
-
-  
 
       </div>
     </main>

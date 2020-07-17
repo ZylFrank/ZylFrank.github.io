@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://zylfrank.github.io/sitemap.xml

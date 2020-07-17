@@ -10,70 +10,14 @@
   
   <url>
     <loc>https://zylfrank.github.io/</loc>
-    <lastmod>2020-07-16T21:33:32+08:00</lastmod>
+    <lastmod>2020-07-13T15:15:13+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://zylfrank.github.io/categories/</loc>
-    <lastmod>2020-07-16T21:33:32+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://zylfrank.github.io/categories/linux/</loc>
-    <lastmod>2020-07-16T21:33:32+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://zylfrank.github.io/post/</loc>
-    <lastmod>2020-07-16T21:33:32+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://zylfrank.github.io/tags/</loc>
-    <lastmod>2020-07-16T21:33:32+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://zylfrank.github.io/tags/tmux/</loc>
-    <lastmod>2020-07-16T21:33:32+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://zylfrank.github.io/post/linux/tmux/</loc>
-    <lastmod>2020-07-16T21:33:32+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://zylfrank.github.io/categories/server/</loc>
-    <lastmod>2020-07-16T21:10:11+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://zylfrank.github.io/tags/server/</loc>
-    <lastmod>2020-07-16T21:10:11+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://zylfrank.github.io/post/server/serverinfo/</loc>
-    <lastmod>2020-07-16T21:10:11+08:00</lastmod>
+    <lastmod>2020-07-13T15:15:13+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -94,6 +38,20 @@
   
   <url>
     <loc>https://zylfrank.github.io/post/docker/</loc>
+    <lastmod>2020-07-13T15:15:13+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://zylfrank.github.io/post/</loc>
+    <lastmod>2020-07-13T15:15:13+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://zylfrank.github.io/tags/</loc>
     <lastmod>2020-07-13T15:15:13+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -163,14 +121,14 @@
   </url>
   
   <url>
-    <loc>https://zylfrank.github.io/tags/hugo/</loc>
+    <loc>https://zylfrank.github.io/categories/hugo/</loc>
     <lastmod>2020-07-03T15:42:41+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://zylfrank.github.io/categories/hugo/</loc>
+    <loc>https://zylfrank.github.io/tags/hugo/</loc>
     <lastmod>2020-07-03T15:42:41+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>

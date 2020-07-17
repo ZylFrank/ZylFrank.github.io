@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Docker on Blog - write by zhangyunlong</title>
+    <link>https://zylfrank.github.io/tags/docker/</link>
+    <description>Recent content in Docker on Blog - write by zhangyunlong</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 13 Jul 2020 15:15:13 +0800</lastBuildDate>
+    
+	<atom:link href="https://zylfrank.github.io/tags/docker/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Docker</title>
+      <link>https://zylfrank.github.io/post/docker/</link>
+      <pubDate>Mon, 13 Jul 2020 15:15:13 +0800</pubDate>
+      
+      <guid>https://zylfrank.github.io/post/docker/</guid>
+      <description>&lt;h1 id=&#34;summary&#34;&gt;Summary&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Docker系统部署。&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -6,7 +6,7 @@
     <description>Recent content on Blog - write by zhangyunlong</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 13 Jul 2020 15:15:13 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 16 Jul 2020 21:33:32 +0800</lastBuildDate>
     
 	<atom:link href="https://zylfrank.github.io/index.xml" rel="self" type="application/rss+xml" />
     
@@ -20,6 +20,24 @@
       <description>Hugo is a static site engine written in Go.
 It makes use of a variety of open source projects including:
  even  </description>
+    </item>
+    
+    <item>
+      <title>Tmux</title>
+      <link>https://zylfrank.github.io/post/linux/tmux/</link>
+      <pubDate>Thu, 16 Jul 2020 21:33:32 +0800</pubDate>
+      
+      <guid>https://zylfrank.github.io/post/linux/tmux/</guid>
+      <description>&lt;h1 id=&#34;introduce-tmux&#34;&gt;Introduce tmux&lt;/h1&gt;</description>
+    </item>
+    
+    <item>
+      <title>Server Info</title>
+      <link>https://zylfrank.github.io/post/server/serverinfo/</link>
+      <pubDate>Thu, 16 Jul 2020 21:10:11 +0800</pubDate>
+      
+      <guid>https://zylfrank.github.io/post/server/serverinfo/</guid>
+      <description>&lt;h1 id=&#34;heading&#34;&gt;记录一些服务器信息&lt;/h1&gt;</description>
     </item>
     
     <item>
