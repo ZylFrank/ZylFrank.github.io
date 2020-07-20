@@ -6,7 +6,7 @@
     <description>Recent content on Blog - write by zhangyunlong</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 16 Jul 2020 21:33:32 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 17 Jul 2020 16:45:09 +0800</lastBuildDate>
     
 	<atom:link href="https://zylfrank.github.io/index.xml" rel="self" type="application/rss+xml" />
     
@@ -20,6 +20,18 @@
       <description>Hugo is a static site engine written in Go.
 It makes use of a variety of open source projects including:
  even  </description>
+    </item>
+    
+    <item>
+      <title>Cors</title>
+      <link>https://zylfrank.github.io/post/cors/</link>
+      <pubDate>Fri, 17 Jul 2020 16:45:09 +0800</pubDate>
+      
+      <guid>https://zylfrank.github.io/post/cors/</guid>
+      <description>&lt;h1 id=&#34;summary&#34;&gt;Summary&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;CORS (Cross-Origin Resource Sharing，跨域资源共享) 是一个系统，它由一系列传输的HTTP头组成，这些HTTP头决定浏览器是否阻止前端 JavaScript 代码获取跨域请求的响应。&lt;/p&gt;
+&lt;/blockquote&gt;</description>
     </item>
     
     <item>

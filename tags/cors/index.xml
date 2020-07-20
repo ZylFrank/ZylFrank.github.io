@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cors on Blog - write by zhangyunlong</title>
+    <link>https://zylfrank.github.io/tags/cors/</link>
+    <description>Recent content in Cors on Blog - write by zhangyunlong</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 17 Jul 2020 16:45:09 +0800</lastBuildDate>
+    
+	<atom:link href="https://zylfrank.github.io/tags/cors/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Cors</title>
+      <link>https://zylfrank.github.io/post/cors/</link>
+      <pubDate>Fri, 17 Jul 2020 16:45:09 +0800</pubDate>
+      
+      <guid>https://zylfrank.github.io/post/cors/</guid>
+      <description>&lt;h1 id=&#34;summary&#34;&gt;Summary&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;CORS (Cross-Origin Resource Sharing，跨域资源共享) 是一个系统，它由一系列传输的HTTP头组成，这些HTTP头决定浏览器是否阻止前端 JavaScript 代码获取跨域请求的响应。&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
