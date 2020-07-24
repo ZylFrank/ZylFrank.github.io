@@ -10,20 +10,27 @@
   
   <url>
     <loc>https://zylfrank.github.io/</loc>
-    <lastmod>2020-07-17T16:45:09+08:00</lastmod>
+    <lastmod>2020-07-23T16:17:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://zylfrank.github.io/post/react/initial-project/</loc>
+    <lastmod>2020-07-23T16:17:15+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://zylfrank.github.io/post/</loc>
+    <lastmod>2020-07-23T16:17:15+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://zylfrank.github.io/categories/</loc>
-    <lastmod>2020-07-17T16:45:09+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://zylfrank.github.io/tags/cors/</loc>
     <lastmod>2020-07-17T16:45:09+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -37,14 +44,14 @@
   </url>
   
   <url>
-    <loc>https://zylfrank.github.io/post/cors/</loc>
+    <loc>https://zylfrank.github.io/tags/cors/</loc>
     <lastmod>2020-07-17T16:45:09+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://zylfrank.github.io/post/</loc>
+    <loc>https://zylfrank.github.io/post/cors/</loc>
     <lastmod>2020-07-17T16:45:09+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -79,14 +86,14 @@
   </url>
   
   <url>
-    <loc>https://zylfrank.github.io/tags/server/</loc>
+    <loc>https://zylfrank.github.io/categories/server/</loc>
     <lastmod>2020-07-16T21:10:11+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://zylfrank.github.io/categories/server/</loc>
+    <loc>https://zylfrank.github.io/tags/server/</loc>
     <lastmod>2020-07-16T21:10:11+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>

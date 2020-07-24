@@ -6,10 +6,19 @@
     <description>Recent content in Posts on Blog - write by zhangyunlong</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 17 Jul 2020 16:45:09 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 23 Jul 2020 16:17:15 +0800</lastBuildDate>
     
 	<atom:link href="https://zylfrank.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Initial React Project</title>
+      <link>https://zylfrank.github.io/post/react/initial-project/</link>
+      <pubDate>Thu, 23 Jul 2020 16:17:15 +0800</pubDate>
+      
+      <guid>https://zylfrank.github.io/post/react/initial-project/</guid>
+      <description>&lt;h1 id=&#34;how-to-create-a-react-project-include-ant-design&#34;&gt;How to create a react project include ant design&lt;/h1&gt;</description>
+    </item>
     
     <item>
       <title>Cors</title>
